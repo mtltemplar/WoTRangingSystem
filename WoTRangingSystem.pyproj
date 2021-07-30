@@ -1,0 +1,162 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>73e61ecd-b82f-484e-b72e-333589bbbc25</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>WoTRangingSystem.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>WoTRangingSystem</Name>
+    <RootNamespace>WoTRangingSystem</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\client\gui\mods\mod_AdvancedAimingSystem.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\enum.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\AnalyticGeometry.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\ArenaInfo.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\BallisticsMath.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\CallbackUtils.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\ClientMessages.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\ClientUtils.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\CollisionUtils.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\EngineUtils.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\HookUtils.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\IngameSettings.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\KeyboardUtils.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\MathUtils.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\library.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\components\BattleViewComponentBase.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\components\panels\TextPanel.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\components\panels\TextPanelMeta.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\components\panels\__init__.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\components\__init__.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\handlers\ContextMenuHandler.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\handlers\__init__.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\__init__.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\__init__.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\__init__.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\TargetScanners.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\TextUtils.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\VehicleBounds.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\VehicleInfo.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\VehicleMath.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\Versioning.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\XMLConfigReader.py" />
+    <Compile Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\__init__.py" />
+    <Compile Include="WoTRangingSystem.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="old_code\" />
+    <Folder Include="old_code\mods\" />
+    <Folder Include="old_code\mods\1.13.0.1\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\gui\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\gui\flash\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\mods\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\mods\GPCracker.AdvancedAimingSystem\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\mods\GPCracker.AdvancedAimingSystem\icons\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\scripts\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\scripts\client\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\scripts\client\gui\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\scripts\client\gui\mods\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\scripts\common\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\components\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\components\panels\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\handlers\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\text\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\text\lc_messages\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\text\lc_messages\en-US\" />
+    <Folder Include="old_code\mods\1.13.0.1\res\text\lc_messages\ru-RU\" />
+    <Folder Include="old_code\mods\configs\" />
+    <Folder Include="old_code\mods\configs\GPCracker.AdvancedAimingSystem\" />
+    <Folder Include="old_code\mods\configs\GPCracker.AdvancedAimingSystem\modules\" />
+    <Folder Include="old_code\mods\configs\GPCracker.AdvancedAimingSystem\plugins\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include="old_code\mods\1.13.0.1\DONT USE_mod.AdvancedAimingSystem-NOLF_1.0.4.wotmod" />
+    <Content Include="old_code\mods\1.13.0.1\github.txt" />
+    <Content Include="old_code\mods\1.13.0.1\meta.xml" />
+    <Content Include="old_code\mods\1.13.0.1\res\gui\flash\AdvancedAimingSystem.swf" />
+    <Content Include="old_code\mods\1.13.0.1\res\gui\flash\XModLib.swf" />
+    <Content Include="old_code\mods\1.13.0.1\res\mods\GPCracker.AdvancedAimingSystem\icons\AimingInfoBackground.png" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\client\gui\mods\mod_AdvancedAimingSystem.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\client\gui\mods\mod_AdvancedAimingSystem.xml" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\enum.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\AnalyticGeometry.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\ArenaInfo.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\BallisticsMath.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\CallbackUtils.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\ClientMessages.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\ClientUtils.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\CollisionUtils.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\EngineUtils.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\HookUtils.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\IngameSettings.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\KeyboardUtils.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\MathUtils.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\library.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\components\BattleViewComponentBase.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\components\panels\TextPanel.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\components\panels\TextPanelMeta.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\components\panels\__init__.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\components\__init__.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\handlers\ContextMenuHandler.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\handlers\__init__.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\views\__init__.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\battle\__init__.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\pygui\__init__.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\TargetScanners.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\TextUtils.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\VehicleBounds.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\VehicleInfo.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\VehicleMath.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\Versioning.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\XMLConfigReader.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\scripts\common\Lib\XModLib\__init__.pyc" />
+    <Content Include="old_code\mods\1.13.0.1\res\text\lc_messages\AdvancedAimingSystem.mo" />
+    <Content Include="old_code\mods\1.13.0.1\res\text\lc_messages\en-US\AdvancedAimingSystem.mo" />
+    <Content Include="old_code\mods\1.13.0.1\res\text\lc_messages\ru-RU\AdvancedAimingSystem.mo" />
+    <Content Include="old_code\mods\configs\GPCracker.AdvancedAimingSystem\gui.xml" />
+    <Content Include="old_code\mods\configs\GPCracker.AdvancedAimingSystem\modules.xml" />
+    <Content Include="old_code\mods\configs\GPCracker.AdvancedAimingSystem\modules\AimCorrection.xml" />
+    <Content Include="old_code\mods\configs\GPCracker.AdvancedAimingSystem\modules\AimingInfo.xml" />
+    <Content Include="old_code\mods\configs\GPCracker.AdvancedAimingSystem\modules\TargetScanner.xml" />
+    <Content Include="old_code\mods\configs\GPCracker.AdvancedAimingSystem\plugins.xml" />
+    <Content Include="old_code\mods\configs\GPCracker.AdvancedAimingSystem\plugins\AdvancedArtyExtension.xml" />
+    <Content Include="old_code\mods\configs\GPCracker.AdvancedAimingSystem\plugins\AutoAimExtension.xml" />
+    <Content Include="old_code\mods\configs\GPCracker.AdvancedAimingSystem\plugins\ExpertPerkExtension.xml" />
+    <Content Include="old_code\mods\configs\GPCracker.AdvancedAimingSystem\plugins\RadialMenuExtension.xml" />
+    <Content Include="old_code\mods\configs\GPCracker.AdvancedAimingSystem\plugins\SafeShotExtension.xml" />
+    <Content Include="old_code\mods\configs\GPCracker.AdvancedAimingSystem\plugins\SniperModeSPGExtension.xml" />
+    <Content Include="old_code\mods\configs\GPCracker.AdvancedAimingSystem\root.xml" />
+    <Content Include="README.md" />
+    <Content Include="README.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
